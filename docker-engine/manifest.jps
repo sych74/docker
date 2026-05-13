@@ -1,7 +1,7 @@
 type: install
 id: docker-engine-ce
 version: 1.7
-baseUrl: https://cdn.jsdelivr.net/gh/jelastic-jps/docker@master
+baseUrl: https://fastly.jsdelivr.net/gh/jelastic-jps/docker@master
 description:
   text: /docker-engine/text/description.md
   short: Automatic Installation of Docker Engine (CE) as a Standalone or Worker Node
