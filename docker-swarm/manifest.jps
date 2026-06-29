@@ -1,7 +1,7 @@
 type: install
 id: docker-swarm-ce
 version: 1.7
-baseUrl: https://fastly.jsdelivr.net/gh/jelastic-jps/docker@master
+baseUrl: https://raw.githubusercontent.com/sych74/docker/JE-73806
 description:
   text: /docker-swarm/text/description.md
   short: Docker Swarm Cluster with out-of-box auto-clustering and auto-scaling
@@ -192,4 +192,4 @@ actions:
         worker-token: ${response.out}
 
 startPage: ${globals.startPage}      
-success: /text/success.md
+success: /docker-swarm/text/success.md
